@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="nav_bar">
+            <a href="index.html">Google Search</a>
+            <a href="image_search.html">Google Image</a>
+            <a href="advanced_search.html">Advanced Search</a>
+        </div>
+        <div class="advanced_search">
+            <form action="https://google.com/search">
+                <div class="form-group row">
+                    <label for="as_q" class="col-sm-2 col-form-label">all these words:</label>
+                    <input type="text" id="as_q" name="as_q" class="col-sm-2 form-control border rounded">
+                </div>
+                <div class="form-group row">
+                    <label for="as_q" class="col-sm-2 col-form-label">this exact word or phrase:</label>
+                    <input type="text" id="as_epq" name="as_epq" class="col-sm-2 form-control border rounded"><br>
+                </div>
+                <div class="form-group row">
+                    <label for="as_q" class="col-sm-2 col-form-label">any of these words:</label>
+                    <input type="text" id="as_oq" name="as_oq" class="col-sm-2 form-control border rounded"><br>
+                </div>
+                <div class="form-group row">
+                    <label for="as_q" class="col-sm-2 col-form-label">none of these words:</label>
+                    <input type="text" id="as_eq" name="as_eq" class="col-sm-2 form-control border rounded"><br>
+                </div>
+                <input type="submit" value="Google Search" class="btn btn-light">
+            </form>
+        </div>
+    </body>
+</html>
